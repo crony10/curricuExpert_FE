@@ -15,6 +15,7 @@ const Title = ({
     undoList,
     setUndo
 }) => {
+    console.log("list in title: ",list)
 
     const [isHovered, setIsHovered] = useState(false);
 

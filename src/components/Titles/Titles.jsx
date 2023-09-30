@@ -8,7 +8,7 @@ function Titles({ list, setList, undoList, setUndo }) {
 
     const [higherStageItemIds, setHigherStageItemIds] = useState([]);
 
-   
+   console.log("list in titles: ",list)
 
     function findHigherStageItems(sourceIndex, items, draggedStage, isDragOrDrop) {
         let higherStageItems = [];
